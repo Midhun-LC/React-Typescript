@@ -1,0 +1,22 @@
+
+This tsconfig.json file configures how TypeScript checks and understands your project. Here’s what each part does:
+
+compilerOptions
+noEmit: TypeScript will check your code for errors but won’t output any compiled JavaScript files.
+target: Sets the JavaScript version to ES2022, so TypeScript uses modern JS features.
+jsx: Uses the new React JSX transform, so you don’t need to import React in every file.
+module: Uses ESNext modules (import/export syntax).
+moduleResolution: Resolves modules like Node.js does.
+strict: Turns on all strict type-checking options for better code safety.
+esModuleInterop: Allows default imports from CommonJS modules (like import path from "path").
+forceConsistentCasingInFileNames: Ensures file names are used with consistent casing (avoids issues on different OSes).
+skipLibCheck: Skips type checking of library declaration files for faster builds.
+allowSyntheticDefaultImports: Lets you use default imports even if the module doesn’t have a default export.
+resolveJsonModule: Lets you import .json files as modules.
+isolatedModules: Ensures each file can be transpiled independently (important for Babel and some build tools).
+include
+Only files in the src folder are checked by TypeScript.
+exclude
+Ignores the node_modules folder (dependencies).
+In summary:
+This config sets up TypeScript for a modern React project, using strict type checking, modern JavaScript, and compatibility with many tools and libraries.

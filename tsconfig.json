@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+    "noEmit": true,
+    "target": "ES2022",
+    "jsx": "react-jsx",
+
+    // Recommended additions:
+    "module": "ESNext",                // Use modern module system
+    "moduleResolution": "Node",        // Resolve modules like Node.js
+    "strict": true,                    // Enable all strict type-checking options
+    "esModuleInterop": true,           // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Ensure file name casing consistency
+    "skipLibCheck": true,              // Skip type checking of declaration files for faster builds
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "resolveJsonModule": true,         // Allow importing .json files
+    "isolatedModules": true            // Ensure each file can be transpiled independently
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,12 @@
+
+
+This Babel config tells Babel to do two main things:
+
+@babel/preset-env: Convert modern JavaScript code into a version that works in browsers that support ES modules (most modern browsers).
+
+Tell Babel to convert your JavaScript so it works in all browsers that are used by more than 0.25% of people and are not officially outdated (“dead”).
+This helps your code run on most browsers people actually use, without supporting very old or unused browsers.
+
+"runtime": "automatic" means you don’t have to manually import React in every file that uses JSX; Babel handles it for you.
+In short:
+This config makes sure your modern JavaScript and React code works in all modern browsers, and you don’t need to import React everywhere you use JSX.

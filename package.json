@@ -1,0 +1,42 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "a react project with typescript",
+  "homepage": "https://github.com/Midhun-LC/React-Typescript#readme",
+  "bugs": {
+    "url": "https://github.com/Midhun-LC/React-Typescript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Midhun-LC/React-Typescript.git"
+  },
+  "license": "ISC",
+  "author": "Midhun LC",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tscheck": "tsc"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "babel-loader": "^10.0.0",
+    "browserslist": "^4.25.3",
+    "html-webpack-plugin": "^5.6.4",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}
